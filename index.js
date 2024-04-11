@@ -4,6 +4,7 @@ const email = document.getElementById('email')
 const password = document.getElementById('password')
 const passwordtwo = document.getElementById('passwordtwo')
 
+
 form.addEventListener('submit', (e) => {
     e.preventDefault()
 
@@ -63,3 +64,8 @@ function successValidation(input) {
 
     formControl.className = 'form-control success'
 }
+
+
+document.getElementById("login").addEventListener("click", function(){
+    window.location.href = "page_login.html"
+})
