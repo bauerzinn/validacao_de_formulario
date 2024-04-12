@@ -7,7 +7,7 @@
 }
 
 body {
-    background: #242933;
+    background: linear-gradient(135deg, #242933, #6c788e);
     display: flex;
     font-family: Poppins;
     align-items: center;
@@ -29,7 +29,7 @@ body {
 
 
 .header {
-    padding: 30px 40px;
+    padding: 20px 40px;
 }
 
 
@@ -60,11 +60,8 @@ body {
     border: 2px solid #3E445B;
     border-radius: 5px;
     outline: 0;
-
     display: block;
-
     font-size: 14px;
-
     width: 100%;
     padding: 15px;
 }
@@ -118,7 +115,7 @@ body {
     display: flex;
     justify-content: center; 
     align-items: center;
-    padding: 0px 0px 20px;
+    padding: 0px 0px 10px;
 }
 
 #login {
